@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #e15554;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #d8dbe2;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Bubblegum Sans';
+  margin-bottom: 1em;
+  padding-bottom: 1rem;
+  max-width: 90%;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+h3 {
+  margin-top: 1em;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 80%;
+  border-radius: 50%;
+  background-color: #64348a;
+}
+
+img {
+  width: 60%;
+  padding: 20px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.quest-section, .yoda-says {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+
+#button {
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #64348a;
+  color:#ffffff;
+  font-family:'Open Sans', sans-serif;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(153, 152, 152);
+}
+
+#question {
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #64348a;
+}
+
+#button:hover{
+  width: 75%;
+  padding: 13px;
+  background-color: #e15554;
+}
+

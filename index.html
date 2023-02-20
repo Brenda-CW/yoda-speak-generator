@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Yoda Translator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="image">
+        <img src="img/baby-yoda-768x453.png"></img>
+      </div>
+      <h1>What Would Yoda Say?</h1>
+      <h3>Ask the master, Padawan</h3>
+      <div class="quest-section">
+        <label for="question">Yoda, how would you say...?</label>
+        <input type="text" id="question" name="question" placeholder="Please type a sentence." required minlength="4" maxlength="100">
+        <button id="button">Ask me, Padawan.</button>
+      </div>
+      
+      <p class="yoda-says"></p>
+    </main>
+  </body>
+
+</html>
